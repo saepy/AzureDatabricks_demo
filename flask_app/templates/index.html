@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>EMNIST-DEMO</title>
+	<link rel="stylesheet" href="/static/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="/static/js/azure-storage.blob.min.js"></script>
+	<script src="/static/js/azure-storage.common.min.js"></script>
+
+</head>
+
+<body>
+		<h1>EMNIST-DEMO</h1>
+
+		<div class="centered">
+			<canvas id="canvas" width="280" height="280"></canvas>
+		</div>
+
+		<div class="centered">
+			<input type="button" id="clear_button" value="Clear" style="">
+		</div>
+		<center><input id="inputFile" type="file" /></center>
+		<center><p>{{ text }}</p></center>
+		<script src="/static/js/index.js"></script>
+		<script src="/static/js/main.js"></script>
+</body>
+</html>
